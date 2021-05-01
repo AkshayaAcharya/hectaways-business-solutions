@@ -1,0 +1,40 @@
+/* @import url('https://fonts.googleapis.com/css?family=Anton'); */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    font-family: 'Quicksand:wght@300&display=swap', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* .navbar-brand>img {
+  max-height: 100%;
+  height: 100%;
+  width: 50px;
+  margin: 0 auto;
+
+
+
+} */
+/* .carousel {
+  position: relative;
+  margin-top: 250px;
+  margin: auto;
+}
+.slide-img{
+  width: 100%;
+  height: 800px;
+}
+
+.navbar-nav{
+  margin-left: auto;
+}
+
+.nav-item{
+  font-size: 1 em;
+} */
