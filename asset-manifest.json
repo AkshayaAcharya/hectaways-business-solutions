@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AkshayaAcharya/hectaways-business-solutions/static/css/main.34d5bc6d.chunk.css",
-    "main.js": "/AkshayaAcharya/hectaways-business-solutions/static/js/main.4633c32b.chunk.js",
-    "main.js.map": "/AkshayaAcharya/hectaways-business-solutions/static/js/main.4633c32b.chunk.js.map",
+    "main.js": "/AkshayaAcharya/hectaways-business-solutions/static/js/main.2eb78a83.chunk.js",
+    "main.js.map": "/AkshayaAcharya/hectaways-business-solutions/static/js/main.2eb78a83.chunk.js.map",
     "runtime-main.js": "/AkshayaAcharya/hectaways-business-solutions/static/js/runtime-main.21f43e3d.js",
     "runtime-main.js.map": "/AkshayaAcharya/hectaways-business-solutions/static/js/runtime-main.21f43e3d.js.map",
     "static/css/2.150d169a.chunk.css": "/AkshayaAcharya/hectaways-business-solutions/static/css/2.150d169a.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.2845f078.chunk.js",
     "static/css/main.34d5bc6d.chunk.css",
-    "static/js/main.4633c32b.chunk.js"
+    "static/js/main.2eb78a83.chunk.js"
   ]
 }
