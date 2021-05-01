@@ -1,15 +1,13 @@
 import React from 'react'
 import {
-    BrowserRouter as Router,
+    // BrowserRouter as Router,
     Switch,
     Route,
-    useParams,
+    Link
   } from "react-router-dom";
-  import { Navbar,Nav,NavDropdown,Form,FormControl,Button } from 'react-bootstrap'
-  import Home from './Home';
-  import About from './About';
-  import Services from './Services';
-  import Contact from './Contact';
+//   import { Navbar,Nav,NavDropdown,Form,FormControl,Button } from 'react-bootstrap'
+  import { Navbar,Nav} from 'react-bootstrap'
+
 
 class Header extends React.Component{
 
@@ -18,46 +16,22 @@ class Header extends React.Component{
             <div>
                 <div className="row">
                     <div className="col-md-12">
-                        <Router>
+                        {/* <Router basename={'/hectaways-business-solutions/'}> */}
                             <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-                                <Navbar.Brand href="#home">Heactways Business Solutions</Navbar.Brand>
+                                <Navbar.Brand href="#">Heactways Business Solutions</Navbar.Brand>
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Nav className="ml-auto">
-                                    <Nav.Link href="/">Home</Nav.Link>
-                                    <Nav.Link href="/about">About Us</Nav.Link>
-                                    <Nav.Link href="/services">Services</Nav.Link>
-                                    <Nav.Link href="/contact">Contact Us</Nav.Link>
-                                    {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                        <NavDropdown.Divider />
-                                        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                                    </NavDropdown> */}
+                                    <Nav.Link as={Link} to="/">Home</Nav.Link>
+                                    <Nav.Link as={Link} to="/about">About Us</Nav.Link>
+                                    <Nav.Link as={Link} to="/services">Services</Nav.Link>
+                                    <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link>
                                     </Nav>
-                                    {/* <Form inline>
-                                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                                    <Button variant="outline-success">Search</Button>
-                                    </Form> */}
                                 </Navbar.Collapse>
                             </Navbar>
                             <br />
-                            <Switch>
-                                <Route exact path="/">
-                                    <Home />
-                                </Route>
-                                <Route path="/about">
-                                    <About />
-                                </Route>
-                                <Route path="/services">
-                                    <Services />
-                                </Route>
-                                <Route path="/contact">
-                                    <Contact/>
-                                </Route>
-                            </Switch>
-                        </Router>
+                            
+                        {/* </Router> */}
                     </div>
                 </div>
             </div>
