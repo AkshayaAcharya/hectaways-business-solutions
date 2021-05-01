@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/hectaways-business-solutions/static/css/main.34d5bc6d.chunk.css",
-    "main.js": "/hectaways-business-solutions/static/js/main.c758dab5.chunk.js",
-    "main.js.map": "/hectaways-business-solutions/static/js/main.c758dab5.chunk.js.map",
+    "main.js": "/hectaways-business-solutions/static/js/main.9b972b66.chunk.js",
+    "main.js.map": "/hectaways-business-solutions/static/js/main.9b972b66.chunk.js.map",
     "runtime-main.js": "/hectaways-business-solutions/static/js/runtime-main.b6c8eb90.js",
     "runtime-main.js.map": "/hectaways-business-solutions/static/js/runtime-main.b6c8eb90.js.map",
     "static/css/2.150d169a.chunk.css": "/hectaways-business-solutions/static/css/2.150d169a.chunk.css",
-    "static/js/2.e30cc680.chunk.js": "/hectaways-business-solutions/static/js/2.e30cc680.chunk.js",
-    "static/js/2.e30cc680.chunk.js.map": "/hectaways-business-solutions/static/js/2.e30cc680.chunk.js.map",
+    "static/js/2.2b405e19.chunk.js": "/hectaways-business-solutions/static/js/2.2b405e19.chunk.js",
+    "static/js/2.2b405e19.chunk.js.map": "/hectaways-business-solutions/static/js/2.2b405e19.chunk.js.map",
     "index.html": "/hectaways-business-solutions/index.html",
     "static/css/2.150d169a.chunk.css.map": "/hectaways-business-solutions/static/css/2.150d169a.chunk.css.map",
     "static/css/main.34d5bc6d.chunk.css.map": "/hectaways-business-solutions/static/css/main.34d5bc6d.chunk.css.map",
-    "static/js/2.e30cc680.chunk.js.LICENSE.txt": "/hectaways-business-solutions/static/js/2.e30cc680.chunk.js.LICENSE.txt"
+    "static/js/2.2b405e19.chunk.js.LICENSE.txt": "/hectaways-business-solutions/static/js/2.2b405e19.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b6c8eb90.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.e30cc680.chunk.js",
+    "static/js/2.2b405e19.chunk.js",
     "static/css/main.34d5bc6d.chunk.css",
-    "static/js/main.c758dab5.chunk.js"
+    "static/js/main.9b972b66.chunk.js"
   ]
 }
