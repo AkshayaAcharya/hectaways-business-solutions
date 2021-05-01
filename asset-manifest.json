@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/AkshayaAcharya/hectaways-business-solutions/static/css/main.e29413ac.chunk.css",
-    "main.js": "/AkshayaAcharya/hectaways-business-solutions/static/js/main.b62b15ee.chunk.js",
-    "main.js.map": "/AkshayaAcharya/hectaways-business-solutions/static/js/main.b62b15ee.chunk.js.map",
+    "main.css": "/AkshayaAcharya/hectaways-business-solutions/static/css/main.34d5bc6d.chunk.css",
+    "main.js": "/AkshayaAcharya/hectaways-business-solutions/static/js/main.215cdf62.chunk.js",
+    "main.js.map": "/AkshayaAcharya/hectaways-business-solutions/static/js/main.215cdf62.chunk.js.map",
     "runtime-main.js": "/AkshayaAcharya/hectaways-business-solutions/static/js/runtime-main.21f43e3d.js",
     "runtime-main.js.map": "/AkshayaAcharya/hectaways-business-solutions/static/js/runtime-main.21f43e3d.js.map",
     "static/css/2.150d169a.chunk.css": "/AkshayaAcharya/hectaways-business-solutions/static/css/2.150d169a.chunk.css",
-    "static/js/2.f7608734.chunk.js": "/AkshayaAcharya/hectaways-business-solutions/static/js/2.f7608734.chunk.js",
-    "static/js/2.f7608734.chunk.js.map": "/AkshayaAcharya/hectaways-business-solutions/static/js/2.f7608734.chunk.js.map",
+    "static/js/2.2845f078.chunk.js": "/AkshayaAcharya/hectaways-business-solutions/static/js/2.2845f078.chunk.js",
+    "static/js/2.2845f078.chunk.js.map": "/AkshayaAcharya/hectaways-business-solutions/static/js/2.2845f078.chunk.js.map",
     "index.html": "/AkshayaAcharya/hectaways-business-solutions/index.html",
     "static/css/2.150d169a.chunk.css.map": "/AkshayaAcharya/hectaways-business-solutions/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.e29413ac.chunk.css.map": "/AkshayaAcharya/hectaways-business-solutions/static/css/main.e29413ac.chunk.css.map",
-    "static/js/2.f7608734.chunk.js.LICENSE.txt": "/AkshayaAcharya/hectaways-business-solutions/static/js/2.f7608734.chunk.js.LICENSE.txt"
+    "static/css/main.34d5bc6d.chunk.css.map": "/AkshayaAcharya/hectaways-business-solutions/static/css/main.34d5bc6d.chunk.css.map",
+    "static/js/2.2845f078.chunk.js.LICENSE.txt": "/AkshayaAcharya/hectaways-business-solutions/static/js/2.2845f078.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.21f43e3d.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.f7608734.chunk.js",
-    "static/css/main.e29413ac.chunk.css",
-    "static/js/main.b62b15ee.chunk.js"
+    "static/js/2.2845f078.chunk.js",
+    "static/css/main.34d5bc6d.chunk.css",
+    "static/js/main.215cdf62.chunk.js"
   ]
 }
