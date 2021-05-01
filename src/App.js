@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter, Switch, Route} from 'react-router-dom';
+import { BrowserRouter, HashRouter, Switch, Route} from 'react-router-dom';
 import Header from './Components/Header.js';
 import Home from './Components/Home';
 import About from './Components/About';
@@ -7,7 +7,8 @@ import Services from './Components/Services';
 import Contact from './Components/Contact';
 function App() {
   return (
-    <HashRouter basename="/hectaways-business-solutions" hashType="noslash">
+    // <HashRouter basename="/hectaways-business-solutions" hashType="noslash">
+    <BrowserRouter basename="/hectaways-business-solutions" >
     <Header /> 
       {/* <Switch>
         <Route exact path='/' component={Home} />
@@ -29,7 +30,7 @@ function App() {
             <Contact/>
         </Route>
     </Switch>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
