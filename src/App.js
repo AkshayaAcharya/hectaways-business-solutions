@@ -7,7 +7,7 @@ import Services from './Components/Services';
 import Contact from './Components/Contact';
 function App() {
   return (
-    <HashRouter basename="/hectaways-business-solutions" hashType="noslash">
+    <HashRouter basename="/AkshayaAcharya/hectaways-business-solutions" hashType="noslash">
     <Header /> 
       {/* <Switch>
         <Route exact path='/' component={Home} />
