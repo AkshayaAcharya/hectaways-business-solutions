@@ -13,12 +13,11 @@ class Header extends React.Component{
 
     render(){
         return(
-            <div>
                 <div className="row">
-                    <div className="col-md-12">
+                    <div className="col-md-12 sticky-top">
                         {/* <Router basename={'/hectaways-business-solutions/'}> */}
-                            <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-                                <Navbar.Brand href="#">Heactways Business Solutions</Navbar.Brand>
+                            <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
+                                <Navbar.Brand href="#">Hectaways Business Solutions</Navbar.Brand>
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Nav className="ml-auto">
@@ -34,8 +33,7 @@ class Header extends React.Component{
                         {/* </Router> */}
                     </div>
                 </div>
-            </div>
-        )  
+         )  
     }
 }
 

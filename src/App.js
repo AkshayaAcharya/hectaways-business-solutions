@@ -9,6 +9,7 @@ function App() {
   return (
     // <HashRouter basename="/hectaways-business-solutions" hashType="noslash">
     <BrowserRouter basename="/hectaways-business-solutions" >
+      <div className="container-fluid">
     <Header /> 
       {/* <Switch>
         <Route exact path='/' component={Home} />
@@ -30,6 +31,7 @@ function App() {
             <Contact/>
         </Route>
     </Switch>
+    </div>
     </BrowserRouter>
   );
 }
