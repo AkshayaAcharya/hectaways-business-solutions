@@ -2,12 +2,16 @@ import React, { Component } from 'react';
 import { Card, Collapse, Button } from 'react-bootstrap';
 const card = {
     'backgroundColor': '#171819',
-    'color':'white'
-    
+    'color':'white',
 }
 const cardTitle = {
     // 'backgroundColor': '#171819',
     'color': 'lightblue'
+}
+const rootStyle = {
+    'position': 'relative',
+    'top': '40px',
+    'text-align': 'justify'
 }
 class Services extends React.Component {
 	constructor(props, context) {
@@ -25,9 +29,10 @@ class Services extends React.Component {
 	render() {
 		const { open } = this.state;
 		return (
-			<div style={{ 'width': '100%','position': 'relative', 'padding': '10%', 'margin-left': 'auto', 'margin-right': 'auto'}} >
+			<div className="container" style={{ 'margin-left': 'auto', 'margin-right': 'auto', 'position': 'relative', 'top':'40px'}} >
+                <h3>Services</h3>
                 <div className="row">
-                    <div className="col-md-4 col-sm-6 col-12">
+                    <div className="col-md-4 col-sm-6 col-12 pt-4">
                         <Card className="text-center" style={card}
                             onMouseOver={() => this.setState({ text1open: true })}
                             onMouseOut={() => this.setState({ text1open: false })}
@@ -52,7 +57,7 @@ class Services extends React.Component {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-md-4 col-sm-6 col-12">
+                    <div className="col-md-4 col-sm-6 col-12 pt-4">
                         <Card className="text-center" style={card}
                             onMouseOver={() => this.setState({ text2open: true })}
                             onMouseOut={() => this.setState({ text2open: false })}
@@ -77,7 +82,7 @@ class Services extends React.Component {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-md-4 col-sm-6 col-12">
+                    <div className="col-md-4 col-sm-6 col-12 pt-4">
                         <Card className="text-center" style={card}
                             onMouseOver={() => this.setState({ text3open: true })}
                             onMouseOut={() => this.setState({ text3open: false })}
@@ -85,7 +90,7 @@ class Services extends React.Component {
                             aria-expanded={open}
                             >
                             <Card.Body>
-                            <Card.Title style={cardTitle}>Accounting and Book Keeping</Card.Title>
+                            <Card.Title style={cardTitle}>Accounting & Book Keeping</Card.Title>
                             <Card.Text>
                                 This card has supporting text below as a natural lead-in to additional
                                 content.{' '}
@@ -104,7 +109,7 @@ class Services extends React.Component {
                     </div>
                 </div>
                 <div className="row pt-4">
-                    <div className="col-md-4 col-sm-6 col-12">
+                    <div className="col-md-4 col-sm-6 col-12 pt-4">
                         <Card className="text-center" style={card}
                             onMouseOver={() => this.setState({ text4open: true })}
                             onMouseOut={() => this.setState({ text4open: false })}
@@ -129,7 +134,7 @@ class Services extends React.Component {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-md-4 col-sm-6 col-12">
+                    <div className="col-md-4 col-sm-6 col-12 pt-4">
                         <Card className="text-center" style={card}
                             onMouseOver={() => this.setState({ text5open: true })}
                             onMouseOut={() => this.setState({ text5open: false })}
@@ -154,7 +159,7 @@ class Services extends React.Component {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-md-4 ">
+                    <div className="col-md-4 col-sm-6 col-12 pt-4">
                         <Card className="text-center" style={card}
                             onMouseOver={() => this.setState({ text6open: true })}
                             onMouseOut={() => this.setState({ text6open: false })}
@@ -162,7 +167,7 @@ class Services extends React.Component {
                             aria-expanded={open}
                             >
                             <Card.Body>
-                            <Card.Title style={cardTitle}>Other Management and Consultancy Services</Card.Title>
+                            <Card.Title style={cardTitle}>Management & Consultancy Services</Card.Title>
                             <Card.Text>
                                 This card has supporting text below as a natural lead-in to additional
                                 content.{' '}

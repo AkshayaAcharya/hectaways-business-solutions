@@ -3,6 +3,25 @@
   margin: 0;
   padding: 0;
 }
+
+div.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div.row {
+  margin-right: 0px;
+  margin-left: 0px
+}
+
+
+h4{
+  color: #61dafb;
+}
+
+li{
+  color: grey;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

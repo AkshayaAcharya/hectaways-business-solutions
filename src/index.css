@@ -7,9 +7,15 @@
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
     font-family: 'Quicksand:wght@300&display=swap', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: url(./assets/background.jpg);
+  background-repeat: no-repeat;
+  background-position: 0%;
+  color: black;
+  background-attachment: fixed;
+  background-size: 100%; */
 }
 
 
@@ -19,7 +25,7 @@
   width: 50px;
   margin: 0 auto;
 
-
+color: black;
 
 } 
 /* .carousel {
@@ -48,3 +54,6 @@
 Carousel.Item > img {
   width: 100%;
 }
+.remove-all-margin{
+  margin:0 ! important;
+  padding:0 ! important;  }

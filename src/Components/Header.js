@@ -16,10 +16,10 @@ class Header extends React.Component{
                 <div className="row">
                     <div className="col-md-12 sticky-top">
                         {/* <Router basename={'/hectaways-business-solutions/'}> */}
-                            <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
+                            <Navbar collapseOnSelect bg="dark" variant="dark" expand="lg" fixed="top">
                                 <Navbar.Brand href="#">Hectaways Business Solutions</Navbar.Brand>
-                                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                                <Navbar.Collapse id="basic-navbar-nav">
+                                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                                <Navbar.Collapse id="responsive-navbar-nav">
                                     <Nav className="ml-auto">
                                     <Nav.Link as={Link} to="/">Home</Nav.Link>
                                     <Nav.Link as={Link} to="/about">About Us</Nav.Link>
