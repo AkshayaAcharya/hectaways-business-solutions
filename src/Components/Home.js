@@ -24,7 +24,7 @@ const Home = () => {
     return(
         <div className="container-fluid px-0" style={rootStyle}>  
             <Carousel style={{'width': '100%'}}>  
-                <Carousel.Item style={{'height':"700px"}} >  
+                <Carousel.Item style={{'height':'50%'}}>  
                 <img style={{'width': '100%'}}  
                     className="d-block w-100"  
                     src={first}  
@@ -33,7 +33,7 @@ const Home = () => {
                 <h3>Income Tax</h3>  
                 </Carousel.Caption>  
              </Carousel.Item  >  
-             <Carousel.Item style={{'height':'100%'}}>  
+             <Carousel.Item style={{'height':'50%'}}>  
              <img style={{'width': '100%'}} 
                 className="d-block w-100"  
                 src={second}   alt="" />  
@@ -41,7 +41,7 @@ const Home = () => {
                <h3>Second Demo</h3>  
                   </Carousel.Caption>  
             </Carousel.Item>  
-            <Carousel.Item style={{'height':"700px"}}>  
+            <Carousel.Item style={{'height':'50%'}}>  
                 <img style={{'width': '100%'}} 
                     className="d-block w-100"  
                     src={third}  alt="" />  
