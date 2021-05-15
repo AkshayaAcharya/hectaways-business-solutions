@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/hectaways-business-solutions/static/css/main.91d1e280.chunk.css",
-    "main.js": "/hectaways-business-solutions/static/js/main.22f4bc9a.chunk.js",
-    "main.js.map": "/hectaways-business-solutions/static/js/main.22f4bc9a.chunk.js.map",
+    "main.css": "/hectaways-business-solutions/static/css/main.75737b9b.chunk.css",
+    "main.js": "/hectaways-business-solutions/static/js/main.cd55cf28.chunk.js",
+    "main.js.map": "/hectaways-business-solutions/static/js/main.cd55cf28.chunk.js.map",
     "runtime-main.js": "/hectaways-business-solutions/static/js/runtime-main.b6c8eb90.js",
     "runtime-main.js.map": "/hectaways-business-solutions/static/js/runtime-main.b6c8eb90.js.map",
     "static/css/2.150d169a.chunk.css": "/hectaways-business-solutions/static/css/2.150d169a.chunk.css",
-    "static/js/2.2f73781c.chunk.js": "/hectaways-business-solutions/static/js/2.2f73781c.chunk.js",
-    "static/js/2.2f73781c.chunk.js.map": "/hectaways-business-solutions/static/js/2.2f73781c.chunk.js.map",
+    "static/js/2.0ae02791.chunk.js": "/hectaways-business-solutions/static/js/2.0ae02791.chunk.js",
+    "static/js/2.0ae02791.chunk.js.map": "/hectaways-business-solutions/static/js/2.0ae02791.chunk.js.map",
     "index.html": "/hectaways-business-solutions/index.html",
     "static/css/2.150d169a.chunk.css.map": "/hectaways-business-solutions/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.91d1e280.chunk.css.map": "/hectaways-business-solutions/static/css/main.91d1e280.chunk.css.map",
-    "static/js/2.2f73781c.chunk.js.LICENSE.txt": "/hectaways-business-solutions/static/js/2.2f73781c.chunk.js.LICENSE.txt",
+    "static/css/main.75737b9b.chunk.css.map": "/hectaways-business-solutions/static/css/main.75737b9b.chunk.css.map",
+    "static/js/2.0ae02791.chunk.js.LICENSE.txt": "/hectaways-business-solutions/static/js/2.0ae02791.chunk.js.LICENSE.txt",
     "static/media/accounts.3b0ac7c5.jpg": "/hectaways-business-solutions/static/media/accounts.3b0ac7c5.jpg",
     "static/media/calculator.dbd11810.jpg": "/hectaways-business-solutions/static/media/calculator.dbd11810.jpg",
     "static/media/websiteDevelopment.140fd017.jpg": "/hectaways-business-solutions/static/media/websiteDevelopment.140fd017.jpg"
@@ -19,8 +19,8 @@
   "entrypoints": [
     "static/js/runtime-main.b6c8eb90.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.2f73781c.chunk.js",
-    "static/css/main.91d1e280.chunk.css",
-    "static/js/main.22f4bc9a.chunk.js"
+    "static/js/2.0ae02791.chunk.js",
+    "static/css/main.75737b9b.chunk.css",
+    "static/js/main.cd55cf28.chunk.js"
   ]
 }
